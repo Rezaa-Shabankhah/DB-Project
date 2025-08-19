@@ -9,7 +9,7 @@
 
 ```
 pip install coverage
-coverage run -m unittest tests_orm.py && coverage report -m
+coverage run -m unittest tests.py && coverage report -m
 ```
 
 ## ساختار کلی پروژه
