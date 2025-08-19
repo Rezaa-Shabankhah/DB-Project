@@ -8,17 +8,8 @@
 دستورات زیر از دایرکتری اصلی فایل‌ها اجرا شود :
 
 ```
-python3 -m venv venv
-source venv/bin/activate
-
-# هیچ پکیج خارجی لازم نیست. در صورت تمایل فقط برای گزارش پوشش تست:
-# pip install coverage
-
-# اجرای تست‌ها
-python -m unittest tests_orm.py
-
-# اجرای تست‌ها با coverage:
-# coverage run -m unittest tests_orm.py && coverage report -m
+pip install coverage
+coverage run -m unittest tests_orm.py && coverage report -m
 ```
 
 ## ساختار کلی پروژه
