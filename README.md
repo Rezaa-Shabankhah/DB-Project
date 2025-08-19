@@ -15,10 +15,8 @@ coverage run -m unittest tests.py && coverage report -m
 
 پروژه در دو بخش اصلی تقسیم شده است:
 
-* **orm2.py**:
-هسته ORM شامل کلاس‌های Field، BaseModel، ForeignKeyField و مدل‌های مثال Passenger, Flight, Ticket
-* **tests.py**:
-تست‌های واحد با unittest برای پوشش CRUD
+* فایل **orm2.py**: هسته ORM شامل کلاس‌های Field، BaseModel، ForeignKeyField و مدل‌های مثال Passenger, Flight, Ticket
+* فایل **tests.py**: تست‌های واحد با unittest برای پوشش CRUD
 
 ### معماری پایگاه داده
 
