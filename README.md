@@ -17,7 +17,7 @@ source venv/bin/activate
 # اجرای تست‌ها
 python -m unittest tests_orm.py
 
-# (اختیاری) اجرای تست‌ها با coverage:
+# اجرای تست‌ها با coverage:
 # coverage run -m unittest tests_orm.py && coverage report -m
 ```
 
