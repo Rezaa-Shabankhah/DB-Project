@@ -21,8 +21,6 @@ python -m unittest tests_orm.py
 # coverage run -m unittest tests_orm.py && coverage report -m
 ```
 
-> توجه : این پروژه از SQLite استفاده می‌کند و نیازی به پسورد دیتابیس ندارد. (اگر بخواهید فایل DB ثابت استفاده کنید مسیر آن در فراخوانی BaseModel.connect مشخص می‌شود)
-
 ## ساختار کلی پروژه
 
 پروژه در سه بخش اصلی تقسیم شده است:
