@@ -87,7 +87,7 @@ python -m unittest tests.py
 ```
 
 ## نکات فنی پیاده‌سازی
-- 
+
 - تابع `BaseModel.connect` برای برقراری اتصال مرکزی با پایگاه داده طراحی شده است.
 
 - کد از parameterized queries (`?` placeholders) برای جلوگیری از SQL injection استفاده می‌کند. اعتبارسنجی ورودی‌ها در سطح application انجام می‌شود.
